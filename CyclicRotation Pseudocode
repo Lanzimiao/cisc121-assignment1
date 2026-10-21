@@ -1,0 +1,13 @@
+Start
+  input A
+  input k
+    if length(A) = 0, then
+    return A
+
+    for i <- 1 to k
+      last <- last element of A
+      remove last element from A
+      add last at beginning of A
+    return A
+  output A
+end
