@@ -1,0 +1,12 @@
+def solution(A) :
+  Count_Table = {}
+
+  for i in A:
+    if i not in Count_Table:
+      Count_Table[i] = 1
+    else:
+      Count_Table[i] += 1 
+
+  for i in Count_Table:
+    if Count_Table[i]% 2 != 0:
+      return i
