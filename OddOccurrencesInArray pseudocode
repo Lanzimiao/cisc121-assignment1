@@ -1,1 +1,18 @@
+Start
+  Count_Table ← empty dictionary
 
+  For num in A
+      If item is not in Count_Table THEN
+        Count_Table[num] ← 1
+      Else
+        Count_Table[num] ← Count_Table[num] + 1
+      End IF
+  End for
+
+  For num in of Count_Table
+     If Count_Table[num] MOD 2 ≠ 0 THEN
+     Return num
+  END FOR
+end
+
+    
