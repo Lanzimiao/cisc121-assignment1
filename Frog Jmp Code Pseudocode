@@ -1,0 +1,6 @@
+Start
+  use (Y - x) // D to get need how many jump
+  if (Y - x) // D 
+  set count to count + 1
+  return count
+end
