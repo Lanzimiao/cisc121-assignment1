@@ -1,0 +1,7 @@
+def solution(X, Y, D):
+  num1 = (Y-X) // D
+  if (Y-X) % D != 0:
+    num1 += 1
+    return num1
+  else:
+    return num1
