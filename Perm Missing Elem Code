@@ -1,0 +1,5 @@
+def solution(A):
+  num = len(A) + 1
+  list_total = sum(A)
+  real_num = num*(num + 1) // 2
+  return real_num - list_total
