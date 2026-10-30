@@ -1,0 +1,7 @@
+Start
+  input list[A]
+  num = list[A] length and add 1
+  get list[A] sum, then
+  use num*(num + 1) // 2 to get real sum
+  return real sum - list[A] sum
+End
