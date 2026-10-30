@@ -1,0 +1,7 @@
+Start
+  input (A, B, K)
+  divide K by B, get multiples of b， then
+  divide K by A - 1， to get multiples of A, then
+  use multiples of b - multiples of A
+End
+  
